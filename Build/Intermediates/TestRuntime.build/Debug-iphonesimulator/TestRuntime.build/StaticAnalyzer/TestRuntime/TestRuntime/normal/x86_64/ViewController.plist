@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+ <key>clang_version</key>
+<string>Apple LLVM version 6.0 (clang-600.0.57) (based on LLVM 3.5svn)</string>
+ <key>files</key>
+ <array>
+  <string>/Users/malong/Desktop/自测demo/Runtime/TestRuntime/TestRuntime/ViewController.m</string>
+ </array>
+ <key>diagnostics</key>
+ <array>
+  <dict>
+   <key>path</key>
+   <array>
+    <dict>
+     <key>kind</key><string>event</string>
+     <key>location</key>
+     <dict>
+      <key>line</key><integer>79</integer>
+      <key>col</key><integer>9</integer>
+      <key>file</key><integer>0</integer>
+     </dict>
+     <key>ranges</key>
+     <array>
+       <array>
+        <dict>
+         <key>line</key><integer>79</integer>
+         <key>col</key><integer>9</integer>
+         <key>file</key><integer>0</integer>
+        </dict>
+        <dict>
+         <key>line</key><integer>79</integer>
+         <key>col</key><integer>9</integer>
+         <key>file</key><integer>0</integer>
+        </dict>
+       </array>
+       <array>
+        <dict>
+         <key>line</key><integer>79</integer>
+         <key>col</key><integer>13</integer>
+         <key>file</key><integer>0</integer>
+        </dict>
+        <dict>
+         <key>line</key><integer>79</integer>
+         <key>col</key><integer>122</integer>
+         <key>file</key><integer>0</integer>
+        </dict>
+       </array>
+     </array>
+     <key>depth</key><integer>0</integer>
+     <key>extended_message</key>
+     <string>Value stored to &apos;a&apos; during its initialization is never read</string>
+     <key>message</key>
+     <string>Value stored to &apos;a&apos; during its initialization is never read</string>
+    </dict>
+   </array>
+   <key>description</key><string>Value stored to &apos;a&apos; during its initialization is never read</string>
+   <key>category</key><string>Dead store</string>
+   <key>type</key><string>Dead initialization</string>
+  <key>issue_context_kind</key><string>Objective-C method</string>
+  <key>issue_context</key><string>addMethodToClass</string>
+  <key>issue_hash</key><string>17</string>
+  <key>location</key>
+  <dict>
+   <key>line</key><integer>79</integer>
+   <key>col</key><integer>9</integer>
+   <key>file</key><integer>0</integer>
+  </dict>
+  </dict>
+  <dict>
+   <key>path</key>
+   <array>
+    <dict>
+     <key>kind</key><string>event</string>
+     <key>location</key>
+     <dict>
+      <key>line</key><integer>81</integer>
+      <key>col</key><integer>9</integer>
+      <key>file</key><integer>0</integer>
+     </dict>
+     <key>ranges</key>
+     <array>
+       <array>
+        <dict>
+         <key>line</key><integer>81</integer>
+         <key>col</key><integer>9</integer>
+         <key>file</key><integer>0</integer>
+        </dict>
+        <dict>
+         <key>line</key><integer>81</integer>
+         <key>col</key><integer>9</integer>
+         <key>file</key><integer>0</integer>
+        </dict>
+       </array>
+       <array>
+        <dict>
+         <key>line</key><integer>81</integer>
+         <key>col</key><integer>13</integer>
+         <key>file</key><integer>0</integer>
+        </dict>
+        <dict>
+         <key>line</key><integer>81</integer>
+         <key>col</key><integer>130</integer>
+         <key>file</key><integer>0</integer>
+        </dict>
+       </array>
+     </array>
+     <key>depth</key><integer>0</integer>
+     <key>extended_message</key>
+     <string>Value stored to &apos;b&apos; during its initialization is never read</string>
+     <key>message</key>
+     <string>Value stored to &apos;b&apos; during its initialization is never read</string>
+    </dict>
+   </array>
+   <key>description</key><string>Value stored to &apos;b&apos; during its initialization is never read</string>
+   <key>category</key><string>Dead store</string>
+   <key>type</key><string>Dead initialization</string>
+  <key>issue_context_kind</key><string>Objective-C method</string>
+  <key>issue_context</key><string>addMethodToClass</string>
+  <key>issue_hash</key><string>19</string>
+  <key>location</key>
+  <dict>
+   <key>line</key><integer>81</integer>
+   <key>col</key><integer>9</integer>
+   <key>file</key><integer>0</integer>
+  </dict>
+  </dict>
+  <dict>
+   <key>path</key>
+   <array>
+    <dict>
+     <key>kind</key><string>event</string>
+     <key>location</key>
+     <dict>
+      <key>line</key><integer>303</integer>
+      <key>col</key><integer>11</integer>
+      <key>file</key><integer>0</integer>
+     </dict>
+     <key>ranges</key>
+     <array>
+       <array>
+        <dict>
+         <key>line</key><integer>303</integer>
+         <key>col</key><integer>11</integer>
+         <key>file</key><integer>0</integer>
+        </dict>
+        <dict>
+         <key>line</key><integer>303</integer>
+         <key>col</key><integer>18</integer>
+         <key>file</key><integer>0</integer>
+        </dict>
+       </array>
+       <array>
+        <dict>
+         <key>line</key><integer>303</integer>
+         <key>col</key><integer>22</integer>
+         <key>file</key><integer>0</integer>
+        </dict>
+        <dict>
+         <key>line</key><integer>303</integer>
+         <key>col</key><integer>84</integer>
+         <key>file</key><integer>0</integer>
+        </dict>
+       </array>
+     </array>
+     <key>depth</key><integer>0</integer>
+     <key>extended_message</key>
+     <string>Value stored to &apos;newClass&apos; during its initialization is never read</string>
+     <key>message</key>
+     <string>Value stored to &apos;newClass&apos; during its initialization is never read</string>
+    </dict>
+   </array>
+   <key>description</key><string>Value stored to &apos;newClass&apos; during its initialization is never read</string>
+   <key>category</key><string>Dead store</string>
+   <key>type</key><string>Dead initialization</string>
+  <key>issue_context_kind</key><string>Objective-C method</string>
+  <key>issue_context</key><string>addNesClass</string>
+  <key>issue_hash</key><string>1</string>
+  <key>location</key>
+  <dict>
+   <key>line</key><integer>303</integer>
+   <key>col</key><integer>11</integer>
+   <key>file</key><integer>0</integer>
+  </dict>
+  </dict>
+ </array>
+</dict>
+</plist>
